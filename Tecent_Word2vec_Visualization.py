@@ -31,7 +31,7 @@ with codecs.open("metadata.tsv", 'w+','utf-8') as file_metadata:
             
 del w2v 
 
-#Let us create a 2D tensor called embedding that holds our embeddings.
+#create a 2D tensor called embedding that holds our embeddings.
 with tf.device("/cpu:0"):
     w = tf.Variable(tf.zeros(shape = [max_size, model.vector_size],dtype=tf.float32),
                     #trainable=True,

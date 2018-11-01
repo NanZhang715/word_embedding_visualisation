@@ -1,2 +1,11 @@
 # word_embedding_visualisation
-Visualise Word Embedding With Tensorboard 
+
+
+Visualise Tencent_AILab_ChineseEmbedding With Tensorboard 
+
+
+
+tensorboard --logdir tensorboard/
+
+
+
